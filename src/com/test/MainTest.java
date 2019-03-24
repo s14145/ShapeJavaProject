@@ -22,7 +22,6 @@ public class MainTest {
 		Shape rect1=new Rectangle(rHeight1,rWidth1);
 		
 		// Getting user input height and width for Rectangle 2 
-		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter height for rectangle 2 :");
 		double rHeight2=sc.nextDouble();
 		System.out.print("Enter width for rectangle 2 :");
