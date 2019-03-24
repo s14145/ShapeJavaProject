@@ -12,9 +12,9 @@ public class MainTest {
 	public static void main(String[] args) {
 		
 		// Getting user input height and width for Rectangle 1 
-		System.out.print("Enter height for rectangle 1 :");
+		System.out.print("Enter height for Rectangle 1 : ");
 		double rHeight1=sc.nextDouble();
-		System.out.print("Enter width for rectangle 1 :");
+		System.out.print("Enter width for Rectangle 1 : ");
 		double rWidth1=sc.nextDouble();
 		System.out.print("\n");
 		
@@ -22,9 +22,9 @@ public class MainTest {
 		Shape rect1=new Rectangle(rHeight1,rWidth1);
 		
 		// Getting user input height and width for Rectangle 2 
-		System.out.print("Enter height for rectangle 2 :");
+		System.out.print("Enter height for Rectangle 2 : ");
 		double rHeight2=sc.nextDouble();
-		System.out.print("Enter width for rectangle 2 :");
+		System.out.print("Enter width for Rectangle 2 : ");
 		double rWidth2=sc.nextDouble();
 		System.out.print("\n");
 		
@@ -46,7 +46,7 @@ public class MainTest {
 		System.out.print("\n");
 		
 		// Getting user input radius for Circle 1
-		System.out.print("Enter radius for Circle 1 :");
+		System.out.print("Enter radius for Circle 1 : ");
 		double cRadius1=sc.nextDouble();
 		System.out.print("\n");
 		
@@ -54,7 +54,7 @@ public class MainTest {
 		Shape cir1=new Circle(cRadius1);
 		
 		// Getting user input radius for Circle 2
-		System.out.print("Enter radius for Circle 2 :");
+		System.out.print("Enter radius for Circle 2 : ");
 		double cRadius2=sc.nextDouble();
 		System.out.print("\n");
 				
