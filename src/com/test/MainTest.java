@@ -42,7 +42,7 @@ public class MainTest {
 		System.out.println("Area of Rectangle 2 is: "+rectList.get(1).getArea());
 		
 		System.out.print("\n");
-		System.out.println("-------xxxx-------xxxxx---------xxxxx---------------");
+		System.out.println("-----------------------------------------------------");
 		System.out.print("\n");
 		
 		// Getting user input radius for Circle 1
@@ -72,7 +72,7 @@ public class MainTest {
 		System.out.printf("Area of Circle 2 is: "+"%.2f",cirList.get(1).getArea());
 		
 		System.out.println("\n");
-		System.out.println("-------xxxx-------xxxxx---------xxxxx---------------");
+		System.out.println("----------------------------------------------------");
 		System.out.print("\n");
 	}
 
