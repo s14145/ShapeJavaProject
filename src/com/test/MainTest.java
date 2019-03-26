@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class MainTest {
 	
-	// Scanner class to get user input
+	        // Scanner class to get user input
 		static Scanner sc=new Scanner(System.in);
 		
 		public static void main(String[] args) {
@@ -43,13 +43,12 @@ public class MainTest {
 			System.out.print("Enter radius for Circle 2 : ");
 			double cRadius2=sc.nextDouble();
 			
+			// Instantiating Circle 2 object
+			Shape cir2=new Circle(cRadius2);
 			
 			System.out.println("\n");
 			System.out.println("-------------------------------------------------------");
 			System.out.print("\n");
-								
-			// Instantiating Circle 2 object
-			Shape cir2=new Circle(cRadius2);
 			
 			// Creating ArrayList and adding Rectangle (1 & 2) and Circle (1 & 2) to it
 			List<Shape> Shapes=new ArrayList<Shape>();
